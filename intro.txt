@@ -1,0 +1,29 @@
+ __dirname - path to current directory
+ __filename- file name
+ requrie - function to use modules(common js)
+ module - info about current  module(file)
+ process- info about env where the program is being executed.
+
+ built in module in node:
+
+  os
+  path
+  Fs
+  http
+  
+
+npm - global command, comes with node
+npm --version
+
+local dependency- use it in any project
+npm i <packageName>
+
+package.json - manifest file (stores important info about project/package)
+manual approach (create package.json in the root , create properties etc)
+npm init (step by step, press enter to skip)
+npm init  -y (everything deafult)
+
+
+global dependency - use it in any project
+npm install -g <packageName>
+//sudo install -g <packageName> (mac)
